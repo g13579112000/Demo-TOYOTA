@@ -1,0 +1,50 @@
+.BrandNew-art{
+    width: 100%;
+    height: 350px;
+    background-color: #eee;
+}
+.BrandNew{
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.BrandNew .item{
+    width: 16%;
+    height:150px;
+    padding: 30px 0 0 0;
+    margin: 0 4.5%;
+    
+}
+.BrandNew .item a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+}
+.BrandNew .item a i{
+    padding: 20px;
+    border-radius: 50%;
+    border: 2px solid #900;
+    background-color: #eee;
+    box-sizing: border-box;
+    transform: scale(1);
+    transition: .5s;
+}
+.BrandNew .item a p{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 15px 0;
+    transition: .5s;
+}
+.BrandNew .item a:hover i{
+    padding: 16px;
+    color: white;
+    background-color: #900;
+    transform: scale(1.3);
+}
+.BrandNew .item a:hover p{
+    color: #900;
+}

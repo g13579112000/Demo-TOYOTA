@@ -1,0 +1,50 @@
+.AfterService-art{
+    width: 100%;
+    height: 150px;
+    background-color: #eee;
+}
+.AfterService{
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.AfterService .item{
+    width: 16%;
+    height:150px;
+    padding: 30px 0;
+    margin: 0 4.5%;
+    
+}
+.AfterService .item a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+}
+.AfterService .item a i{
+    padding: 20px;
+    border-radius: 50%;
+    border: 2px solid #900;
+    background-color: #eee;
+    box-sizing: border-box;
+    transform: scale(1);
+    transition: .5s;
+}
+.AfterService .item a p{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 15px 0;
+    transition: .5s;
+}
+.AfterService .item a:hover i{
+    padding: 16px;
+    color: white;
+    background-color: #900;
+    transform: scale(1.3);
+}
+.AfterService .item a:hover p{
+    color: #900;
+}
