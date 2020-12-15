@@ -1,3 +1,6 @@
+.Banner{
+    margin: 60px 0 0 0;
+}
 .Banner-title {
     width: 100%;
     height: 60px;
@@ -45,7 +48,7 @@
 
 .title-list {
     display: block;
-    width: 80%;
+    width: 200px;
     height: 100%;
     position: fixed;
     top: 60px;
@@ -70,8 +73,6 @@
     width: 100%;
     height: 450px;
     background: url("./page01_img01.png"), linear-gradient(#035, #035);
-    position: relative;
-    top: 60px;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -80,7 +81,6 @@
     justify-content: flex-start;
     align-items: center;
     text-align: center;
-    margin: 0 0 60px 0;
 }
 
 .Banner-contain h2 {
@@ -300,6 +300,7 @@
 
 .Footer-about {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -377,17 +378,24 @@
 .Footer-policy a:hover {
     color: #e80;
 }
-
-@media screen and (min-width:1200px) {
+@media screen and (min-width:780px) {
+    .Banner{
+        margin: 120px 0 0 0;
+    }
+    .Banner-title{
+        height: 120px;
+    }
     .Contain-box>div {
         max-width: 1400px;
     }
 
     .Banner-title .title-Logo {
-        padding: 0 0 0 25%;
+        text-align: center;
+        padding: 0 0 0 7%;
     }
     .Banner-title .title-nav{
         display: block;
+        order: 1;
     }
     .Banner-title .title-nav ul{
         display: flex;
@@ -402,14 +410,6 @@
     }
     .Banner-title .title-nav a:hover{
         color: #ccc;
-    }
-    .Banner-title address a {
-        display: none;
-    }
-
-    .Banner-title address a:nth-child(2) {
-        display: block;
-        margin: 0 0 0 30%;
     }
     .Banner-title address:hover a:nth-child(2){
         color: #fa0;
@@ -450,10 +450,33 @@
         justify-content: center;
 
     }
-
     .about-Service ul {
         flex-direction: row;
     }
+}
+@media screen and (min-width:1024px){
+    .Banner{
+        margin: 60px 0 0 0;
+    }
+    .Banner-title{
+        height: 60px;
+    }
+    .Banner-title .title-Logo {
+        padding: 0 0 0 40%;
+        text-align: left;
+    }
+    .Banner-title .title-nav{
+        order: 0;
+    }
+    .Banner-title address a {
+        display: none;
+    }
 
-    .title-list
+    .Banner-title address a:nth-child(2) {
+        display: block;
+        margin: 0 0 0 30%;
+    }
+    .Footer-about{
+        flex-direction: row;
+    }
 }
