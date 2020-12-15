@@ -1,0 +1,81 @@
+html {
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at 100% 150%, #333, #333 50%, #eee 75%, #111 60%);
+
+}
+
+.Title {
+    width: 100%;
+    height: 200px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.Title h1 {
+    font-size: 120px;
+    color: red;
+    text-shadow: 10px 10px 10px #777;
+}
+
+.Games{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Games div{
+    width: 300px;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+    position: relative;
+    margin: 10px;
+}
+.Games .txt{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: -265px;
+    background-color: rgba(0, 0, 0, 50%);
+    transition: .5s;
+}
+.Games div:hover .txt{
+    bottom: -5px;
+}
+.Games h2{
+    font-size: 30px;
+    color:rgba(250, 150, 100, 80%);
+    font-weight: bold;
+    padding: 10px 0 15px;
+}
+.Games p{
+    height: 220px;
+    font-size: 16px;
+    color: white;
+    padding: 0 25px 0 15px;
+    line-height: 25px;
+    transition: .3s;
+    overflow: auto;
+}
+
+
+
+.Games .iidx {
+    background-image: url(./iidx28.png);
+}
+
+.Games .sdvx {
+    background-image: url(./sdvx.png);
+}
+
+.Games .jubeat {
+    background-image: url(./jubeat.png);
+}
+
+.Games .nostalgia {
+    background-image: url(./NostalgiaOp3.png);
+}
