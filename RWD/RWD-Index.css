@@ -386,7 +386,7 @@
         height: 120px;
     }
     .Contain-box>div {
-        max-width: 1400px;
+        max-width: 900px;
     }
 
     .Banner-title .title-Logo {
@@ -418,15 +418,11 @@
         display: none;
     }
     .container {
-        max-width: 1400px;
+        max-width: 900px;
     }
 
     .GetCourse h3 {
         font-size: 50px;
-    }
-
-    .get-email {
-        flex-direction: row;
     }
 
     .get-email input {
@@ -441,6 +437,7 @@
     .Contain>div {
         display: flex;
         justify-content: center;
+        align-items: center;
     }
 
     .GetCourse,
@@ -448,13 +445,19 @@
     .Footer {
         display: flex;
         justify-content: center;
-
+        align-items: center;
     }
     .about-Service ul {
         flex-direction: row;
     }
 }
 @media screen and (min-width:1024px){
+    .container{
+        max-width: 1200px;
+    }
+    .Contain-box>div {
+        max-width: 1200px;
+    }
     .Banner{
         margin: 60px 0 0 0;
     }
@@ -477,6 +480,9 @@
         margin: 0 0 0 30%;
     }
     .Footer-about{
+        flex-direction: row;
+    }
+    .get-email {
         flex-direction: row;
     }
 }
