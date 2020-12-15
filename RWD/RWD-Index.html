@@ -275,19 +275,17 @@
 
     <script>
         $(function () {
-            if ($(".title-Icon").is(":visible")) {
+            while ($(".title-Icon").is(":visible")) {
                 $(".title-list").hide();
-                $(".title-Icon").on("click", function () {
+                break;
+            }
+             $(".title-Icon").on("click", function () {
                     $(".title-list").toggle();
                 })
-            }
         })
         window.onresize = function () {
             if ($(".title-Icon").is(":visible")) {
                 $(".title-list").hide();
-                $(".title-Icon").on("click", function () {
-                    $(".title-list").toggle();
-                })
             }
         };
 
