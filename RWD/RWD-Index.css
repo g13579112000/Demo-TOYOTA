@@ -1,0 +1,458 @@
+.Banner-title {
+    width: 100%;
+    height: 60px;
+    background-color: #035;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 3px 5px#024;
+    z-index: 1;
+}
+
+.Banner-title .title-Icon {
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Banner-title .title-Icon div {
+    width: 30px;
+    border-top: 4px solid #fff;
+    border-radius: 5px;
+}
+
+.Banner-title .title-Logo {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Banner-title address a {
+    color: #fff;
+    transition: .5s;
+}
+.Banner-title address a:hover{
+    color: rgba(200, 200 , 255, 0.8);
+}
+.Banner-title address a:nth-child(2) {
+    font-size: 20px;
+    color: white;
+    display: none;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.title-list {
+    width: 80%;
+    height: 100%;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    background-color: #035;
+}
+
+.title-list li {
+    font-size: 20px;
+    margin: 40px 30px 0px;
+}
+
+.title-list li a {
+    color: #8be;
+    text-decoration: none;
+    transition: .4s;
+}
+.title-list li a:hover{
+    color: #fff;
+}
+.Banner-contain {
+    width: 100%;
+    height: 450px;
+    background: url("./page01_img01.png"), linear-gradient(#035, #035);
+    position: relative;
+    top: 60px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    margin: 0 0 60px 0;
+}
+
+.Banner-contain h2 {
+    color: white;
+    font-size: 40px;
+    padding: 40px 0 10px;
+}
+
+.Banner-contain p {
+    color: #6be;
+    font-size: 18px;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Banner-contain a {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px 50px;
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: #f84;
+    margin: 20px 0;
+    box-shadow: inset 0px 0px 0px 0px #fa6;
+    transition: .5s;
+}
+
+.Banner-contain a:hover {
+    box-shadow: inset 0px 5px 25px 10px #fa6;
+}
+
+.Contain {
+    text-align: center;
+}
+
+.Contain .Contain-pic img {
+    vertical-align: top;
+    width: 100%;
+}
+
+.Contain .Contain-header>div:nth-child(1) {
+    order: 1;
+}
+
+.Contain .Contain-txt {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Contain .Contain-txt h4 {
+    font-size: 36px;
+    color: black;
+    line-height: 48px;
+    padding: 10px;
+}
+
+.Contain .Contain-txt p2 {
+    font-size: 24px;
+    color: #777;
+    line-height: 28px;
+    padding: 30px 20px;
+}
+
+.Contain .Contain-txt p3 {
+    font-size: 18px;
+    color: #aaa;
+    line-height: 28px;
+    padding: 10px;
+}
+
+.Contain .Contain-txt a {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px 50px;
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: #f84;
+    margin: 20px 0;
+    box-shadow: inset 0px 0px 0px 0px #fa6;
+    transition: .5s;
+}
+
+.Contain .Contain-txt a:hover {
+    box-shadow: inset 0px 5px 25px 10px #fa6;
+}
+
+.Contain .Contain-title {
+    font-size: 36px;
+    padding: 30px;
+    line-height: 50px;
+}
+
+.Contain .Info-pic i {
+    color: #e80;
+}
+
+.Contain .Info-txt h4 {
+    font-size: 30px;
+    padding: 15px;
+    color: #777;
+    line-height: 40px;
+}
+
+.Contain .Info-txt p {
+    font-size: 20px;
+    padding: 15px;
+    line-height: 25px;
+    color: #aaa;
+}
+
+.Contain-box {
+    background-color: #eef;
+}
+
+.Contain-box:nth-child(2) {
+    background-color: white;
+}
+
+.GetCourse {
+    height: 460px;
+    background-color: #035;
+    text-align: center;
+}
+
+.GetCourse h3 {
+    color: white;
+    font-size: 36px;
+    line-height: 50px;
+    padding: 50px 0 10px;
+}
+
+.GetCourse p {
+    font-size: 20px;
+    line-height: 25px;
+    color: #6be;
+    padding: 20px 15px;
+}
+
+.GetCourse input {
+    font-size: 20px;
+    width: 80%;
+    padding: 8px 18px;
+    line-height: 34px;
+    border-radius: 30px;
+    outline: none;
+}
+
+.get-email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.GetCourse a {
+    width: 200px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px 40px;
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: #f84;
+    margin: 30px 60px;
+    box-shadow: inset 0px 0px 0px 0px #fa6;
+    transition: .5s;
+}
+
+.GetCourse a:hover {
+    box-shadow: inset 0px 5px 25px 10px #fa6;
+}
+
+.StudentThoughts {
+    background-color: #e63;
+}
+
+.StudentThoughts .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.StudentThoughts h3 {
+    font-size: 38px;
+    color: white;
+    line-height: 60px;
+    padding: 50px 30px 10px;
+}
+
+.StudentThoughts img {
+    width: 40px;
+    height: 40px;
+    padding: 10px 0 20px;
+}
+
+.StudentThoughts p {
+    font-size: 20px;
+    color: white;
+    line-height: 40px;
+    padding: 10px 30px;
+}
+
+.StudentThoughts p3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    padding: 10px 0 60px;
+}
+
+.Footer {
+    background-color: #222;
+}
+
+.Footer-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-Logo {
+    display: flex;
+    justify-content: center;
+}
+
+.about-Logo a {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: 30px 0;
+}
+
+.about-Service ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-Service a {
+    font-size: 16px;
+    line-height: 30px;
+    color: #777;
+    text-decoration: none;
+    margin: 10px;
+    transition: .5s;
+}
+
+.about-Service li:hover a {
+    color: #ccc;
+}
+
+.about-Net ul {
+    display: flex;
+    justify-content: center;
+}
+
+.about-Net a {
+    font-size: 20px;
+    color: #777;
+    text-decoration: none;
+    margin: 0px 10px;
+    transition: .5s;
+}
+
+.about-Net li:hover a {
+    color: #d80;
+}
+
+.Footer-policy {
+    border-top: 1px solid #555;
+}
+
+.Footer-policy p {
+    display: inline;
+    font-size: 14px;
+    line-height: 24px;
+    color: #777;
+    padding: 10px;
+    text-align: center;
+}
+
+.Footer-policy a {
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+}
+
+.Footer-policy a:hover {
+    color: #e80;
+}
+
+@media screen and (min-width:1200px) {
+    .Contain-box>div {
+        max-width: 1400px;
+    }
+
+    .Banner-title .title-Logo {
+        padding: 0 0 0 25%;
+    }
+    .Banner-title .title-nav{
+        display: block;
+    }
+    .Banner-title .title-nav ul{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .Banner-title .title-nav a{
+        color: #6be;
+        font-size: 20px;
+        text-decoration: none;
+        transition: .4s;
+    }
+    .Banner-title .title-nav a:hover{
+        color: #ccc;
+    }
+    .Banner-title address a {
+        display: none;
+    }
+
+    .Banner-title address a:nth-child(2) {
+        display: block;
+        margin: 0 0 0 30%;
+    }
+    .Banner-title address:hover a:nth-child(2){
+        color: #fa0;
+    }
+    .title-list{
+        display: none;
+    }
+    .container {
+        max-width: 1400px;
+    }
+
+    .GetCourse h3 {
+        font-size: 50px;
+    }
+
+    .get-email {
+        flex-direction: row;
+    }
+
+    .get-email input {
+        height: 40px;
+        width: 450px;
+    }
+
+    .Contain-box {
+        padding: 3% 0;
+    }
+
+    .Contain>div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .GetCourse,
+    .StudentThoughts,
+    .Footer {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .about-Service ul {
+        flex-direction: row;
+    }
+
+    .title-list
+}
