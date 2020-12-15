@@ -210,7 +210,7 @@
                 <input type="text" id="e-mail" placeholder="Enter your e-mail">
                 <a href="#">I WANT A COURSE</a>
             </div>
-            
+
         </div>
     </section>
 
@@ -244,26 +244,29 @@
                 <div class="about-Net col-12 col-md-4 col-xl-4">
                     <ul>
                         <li><a href="#">
-                            <i class="fab fa-facebook-f"></i>
-                        </a></li>
+                                <i class="fab fa-facebook-f"></i>
+                            </a></li>
                         <li><a href="#">
-                            <i class="fab fa-twitter"></i>
-                        </a></li>
+                                <i class="fab fa-twitter"></i>
+                            </a></li>
                         <li><a href="#">
-                            <i class="fab fa-google-plus-g"></i>
-                        </a></li>
+                                <i class="fab fa-google-plus-g"></i>
+                            </a></li>
                         <li><a href="#">
-                            <i class="fab fa-instagram"></i>
-                        </a></li>
+                                <i class="fab fa-instagram"></i>
+                            </a></li>
                         <li><a href="#">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a></li>
+                                <i class="fab fa-linkedin-in"></i>
+                            </a></li>
                     </ul>
                 </div>
             </div>
             <div class="row Footer-policy">
-                <p>2016. All Langerba financings are subject to eligibility, credit and underwriting approval. The programs advertised on this page are not a commitment or guarantee from Langerba to provide funds. Programs, rates and other terms & conditions on this page are subject to change without notice.<a href="#">Privacy Policy</a></p>
-                
+                <p>2016. All Langerba financings are subject to eligibility, credit and underwriting approval. The
+                    programs advertised on this page are not a commitment or guarantee from Langerba to provide funds.
+                    Programs, rates and other terms & conditions on this page are subject to change without notice.<a
+                        href="#">Privacy Policy</a></p>
+
 
             </div>
         </div>
@@ -278,6 +281,15 @@
                     $(".title-list").toggle();
                 })
             }
+            window.onresize = function () {
+                if ($(".title-Icon").is(":visible")) {
+                    $(".title-list").hide();
+                    $(".title-Icon").on("click", function () {
+                        $(".title-list").toggle();
+                    })
+                }
+            };
+
         })
     </script>
 </body>

@@ -44,6 +44,7 @@
 }
 
 .title-list {
+    display: block;
     width: 80%;
     height: 100%;
     position: fixed;
