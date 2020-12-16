@@ -6,7 +6,7 @@
     flex-wrap: wrap;
 }
 [class*="col-"]{
-    padding: 0px;
+    padding: 15px;
     box-sizing: border-box;
 }
 .col-0{width: 0; display:none;}
