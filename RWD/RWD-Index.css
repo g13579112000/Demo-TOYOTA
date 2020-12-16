@@ -188,14 +188,14 @@
 
 .Contain .Info-txt h4 {
     font-size: 30px;
-    padding: 15px;
+    padding: 10px;
     color: #777;
     line-height: 40px;
 }
 
 .Contain .Info-txt p {
     font-size: 20px;
-    padding: 15px;
+    padding: 10px;
     line-height: 25px;
     color: #aaa;
 }
@@ -400,6 +400,9 @@
         justify-content: center;
         align-items: center;
     }
+    .Contain-box .Info-txt{
+        text-align: left;
+    }
     .Banner-title .title-Icon{
         justify-content: space-between;
     }
@@ -474,7 +477,6 @@
         max-width: 1200px;
     }
     .Contain-box .Contain-Info{
-        flex-direction: column;
         padding: 0;
     }
     .Banner{
