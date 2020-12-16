@@ -118,10 +118,15 @@
 }
 
 .Contain .Contain-pic img {
-    vertical-align: top;
+    vertical-align: bottom;
     width: 100%;
 }
-
+.Contain .Contain-header{
+    padding: 30px 0 0 0;
+}
+.Contain .Contain-footer{
+    padding: 30px 0;
+}
 .Contain .Contain-header>div:nth-child(1) {
     order: 1;
 }
@@ -196,7 +201,7 @@
 }
 
 .Contain-box {
-    background-color: #eef;
+    background-color: #EAF2F6;
 }
 
 .Contain-box:nth-child(2) {
@@ -389,6 +394,12 @@
     .Contain-box>div {
         max-width: 900px;
     }
+    .Contain-box .Contain-Info{
+        padding: 0 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
     .Banner-title .title-Logo {
         text-align: center;
@@ -432,7 +443,7 @@
     }
 
     .Contain-box {
-        padding: 3% 0;
+        /* padding: 3% 0; */
     }
 
     .Contain>div {
@@ -458,6 +469,10 @@
     }
     .Contain-box>div {
         max-width: 1200px;
+    }
+    .Contain-box .Contain-Info{
+        flex-direction: column;
+        padding: 0;
     }
     .Banner{
         margin: 60px 0 0 0;
@@ -486,4 +501,6 @@
     .get-email {
         flex-direction: row;
     }
+    [class*="col-"]{
+        padding: 15px;
 }
