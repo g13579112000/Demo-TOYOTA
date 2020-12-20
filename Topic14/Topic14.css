@@ -1,0 +1,1524 @@
+* {
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 1px;
+}
+
+section {
+    margin: 100px 0;
+}
+
+.topic1 {
+    background-color: #2B3238;
+}
+
+.topic1 .container {
+    margin: auto;
+
+}
+
+.topic1 .row {
+    padding: 80px 0;
+}
+
+.topic1 .topic1-contain>p {
+    color: #1E7CF7;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 10px 0;
+}
+
+.topic1 .topic1-contain h2 {
+    color: white;
+    font-size: 36px;
+    font-family: Montserrat, sans-serif;
+    padding: 10px 0;
+}
+
+.topic1 .Info p2 {
+    display: block;
+    color: white;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    padding: 10px 0 30px;
+}
+
+.topic1 .Info address {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.topic1 .Info address i {
+    width: 30px;
+    height: 50px;
+    color: #25ebff;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0 30px 0 0;
+    font-size: 26px;
+}
+
+.topic1 .Info address p {
+    color: white;
+    font-size: 18px;
+}
+
+.topic1 .Info address a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: .3s;
+}
+
+.topic1 .Info address a:hover {
+    color: #25ebff;
+}
+
+.topic1 .Enter-Col {
+    display: flex;
+    flex-direction: column;
+}
+
+.topic1 .Enter-Col textarea {
+    background-color: transparent;
+    outline: none;
+    border: transparent;
+    border-bottom: 1px solid #fff;
+    color: white;
+    font-size: 16px;
+    resize: none;
+    width: 100%;
+}
+
+.topic1 .Enter-Col textarea:nth-child(1) {
+    margin: 10px 0 30px;
+    height: 30px;
+}
+
+.topic1 .Enter-Col textarea:nth-child(2) {
+    margin: 10px 0 30px;
+    height: 30px;
+}
+
+.topic1 .Enter-Col textarea:nth-child(3) {
+    overflow: auto;
+    height: 70px;
+}
+
+.topic1 .Enter button {
+    color: white;
+    font-size: 12px;
+    background-color: #1A81FD;
+    padding: 15px 35px;
+    border-radius: 30px;
+    margin: 35px 0 0;
+    outline: none;
+    transition: .3s;
+}
+
+.topic1 .Enter button:hover {
+    background-color: rgba(9, 245, 225, 0.884);
+}
+
+
+.topic2 .wrap {
+    width: 350px;
+    margin: auto;
+    background-color: #5928DC;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.topic2 .wrap .tip {
+    width: 45px;
+    position: absolute;
+    top: 12px;
+    right: -23px;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 25px solid #1A81FD;
+    transform: rotate(45deg);
+}
+
+.topic2 .wrap .tip::before {
+    position: absolute;
+    top: 5px;
+    left: 4px;
+    content: 'BEST';
+    color: white;
+    font-size: 14px;
+
+}
+
+.topic2 .wrap i {
+    font-size: 50px;
+    color: white;
+    padding: 60px 0 0;
+}
+
+.topic2 .wrap h2 {
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: Montserrat, sans-serif;
+    padding: 10px;
+}
+
+.topic2 .wrap .price {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    padding: 10px 0;
+}
+
+.topic2 .wrap .price p:nth-child(1) {
+    position: absolute;
+    top: 15px;
+    left: -15px;
+    color: white;
+}
+
+.topic2 .wrap .price p:nth-child(2) {
+    font-size: 55px;
+    color: white;
+}
+
+.topic2 .wrap .price p:nth-child(3) {
+    color: white;
+}
+
+.topic2 .wrap>p {
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.topic2 .wrap button {
+    color: white;
+    background-color: #5928DC;
+    border-radius: 30px;
+    padding: 15px 40px;
+    outline: none;
+    border: 1px solid #fff;
+    margin: 10px 0 60px;
+    transition: .3s;
+}
+
+.topic2 .wrap button:hover {
+    color: #5928DC;
+    background-color: #fff;
+}
+
+
+
+.topic3 .container {
+    margin: 0 auto;
+    padding-bottom: 10%;
+}
+
+.topic3-Who {
+    background-image: url("http://ld-wp.template-help.com/wordpress_imperion/coworking/wp-content/uploads/2018/11/img2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topic3-banner {
+    background-position: top -2px left 0;
+    background-image: url("http://ld-wp.template-help.com/wordpress_imperion/coworking/wp-content/uploads/2018/11/img3.png");
+    background-repeat: no-repeat;
+    background-size: 750px;
+}
+
+.topic3-Who h2 {
+    font-size: 12px;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 2px;
+    padding: 100px 10px 0;
+}
+
+.topic3-Who h3 {
+    font-family: Montserrat, sans-serif;
+    color: white;
+    font-size: 34px;
+    line-height: 40px;
+    padding: 0 10px;
+}
+
+.topic3-Who h3 a {
+    color: #38E8FF;
+}
+
+.topic3-Who p {
+    font-size: 14px;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    line-height: 25px;
+    padding: 0 10px 30px;
+}
+
+.topic3-banner .row>div {
+    padding: 0;
+}
+
+.topic3-banner .banner-item {
+    padding: 44px 35px 61px 41px;
+}
+
+.topic3-banner .banner-item i {
+    font-size: 50px;
+    color: white;
+    padding: 0 0 40px;
+}
+
+.topic3-banner .banner-item h2 {
+    color: white;
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 300px;
+    padding: 0 0 16px;
+}
+
+.topic3-banner .banner-item p {
+    font-size: 15px;
+    font-weight: 200px;
+    line-height: 30px;
+    color: white;
+    font-family: Montserrat, sans-serif;
+}
+
+.topic3-banner .Work {
+    background-color: #3490FF;
+    transition: .3s;
+}
+
+.topic3-banner .making {
+    background-color: #1A81FD;
+    transition: .3s;
+}
+
+.topic3-banner .get {
+    background-color: #117AF8;
+    transition: .3s;
+}
+
+.topic3-banner .Work:hover {
+    background-color: #117AF8;
+}
+
+.topic3-banner .making:hover {
+    background-color: #186dd4;
+}
+
+.topic3-banner .get:hover {
+    background-color: #0f5fc0;
+}
+
+
+
+
+.topic4 {
+    background: radial-gradient(circle at 0% 900%, #7653FD 88%, #fff 20%);
+}
+
+.topic4 .container {
+    margin: 0 auto;
+}
+
+.topic4 .topic4-pic img {
+    width: 100%;
+}
+
+.topic4-txt {
+    text-align: center;
+}
+
+.topic4 .topic4-txt h2 {
+    color: #42474c;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 50px 0 25px;
+    position: relative;
+}
+
+.topic4 .topic4-txt h2::after {
+    content: '';
+    width: 70px;
+    height: 2px;
+    background-color: #5E58F8;
+    position: absolute;
+    top: 100%;
+    left: 40%;
+}
+
+.topic4 .topic4-txt p {
+    color: #999;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    line-height: 28px;
+    padding: 20px 0;
+}
+
+.topic4 .topic4-txt a {
+    display: inline-block;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 2px;
+    border: 1px solid #5E58F8;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+
+.topic4-button {
+    display: flex;
+    flex-direction: column;
+}
+
+.topic4 .topic4-txt a:nth-child(1) {
+    background-color: white;
+    color: #5E58F8;
+    transition: .3s;
+}
+
+.topic4 .topic4-txt a:nth-child(2) {
+    background-color: #5E58F8;
+    color: white;
+    transition: .3s;
+}
+
+.topic4 .topic4-txt a:nth-child(1):hover {
+    background-color: #5E58F8;
+    color: white;
+}
+
+.topic4 .topic4-txt a:nth-child(2):hover {
+    background-color: white;
+    color: #5E58F8;
+}
+
+
+.topic5 {
+    background-color: #2B3238;
+}
+
+.topic5 .container {
+    margin: 0 auto;
+}
+
+.topic5 .row div {
+    padding: 40px 10px;
+}
+
+.topic5 h3 {
+    color: white;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 20px 10px;
+}
+
+.topic5-about p {
+    color: white;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-family: Montserrat, sans-serif;
+    padding: 10px;
+}
+
+.topic5-tags a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 1px;
+    padding: 15px;
+    margin: 2px;
+    background-color: #252B30;
+}
+
+.topic5-tags a:hover {
+    color: #5E58F8;
+}
+
+.topic5-tags nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.topic5-recent a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Montserrat, sans-serif;
+    padding: 15px 10px;
+}
+
+.topic5-recent a:hover {
+    color: #5E58F8;
+}
+
+.topic5-recent p {
+    color: #aaa;
+    font-size: 12px;
+    font-family: Montserrat, sans-serif;
+    padding: 10px 10px 30px;
+}
+
+
+
+.topic6-banner .container {
+    max-width: 1400px;
+    margin: 0 auto -160px;
+}
+
+.topic6-banner .row div {
+    padding: 0;
+    height: 350px;
+    overflow: hidden;
+}
+
+.topic6-banner .row>div:nth-child(1) .topic6-steps{
+    background: url("https://ld-wp.template-help.com/wordpress_imperion/cryptocurrency_v1/wp-content/uploads/2018/05/crypto-banner-bg.jpg");
+    background-size: cover;
+    background-position-x: -23px;
+    background-repeat: no-repeat;
+    transition: .4s;
+}
+
+.topic6-banner .row>div:nth-child(2) .topic6-steps{
+    background: url("https://ld-wp.template-help.com/wordpress_imperion/cryptocurrency_v1/wp-content/uploads/2018/05/crypto_bg-5.jpg");
+    background-size: cover;
+    background-position-x: -23px;
+    background-repeat: no-repeat;
+    transition: .4s;
+}
+
+.topic6-banner .row>div:nth-child(3) .topic6-steps{
+    background: url("https://ld-wp.template-help.com/wordpress_imperion/cryptocurrency_v1/wp-content/uploads/2018/05/crypto_bg-6.jpg");
+    background-size: cover;
+    background-position-x: -23px;
+    background-repeat: no-repeat;
+    transition: .4s;
+}
+.topic6-banner .row>div:hover .topic6-steps{
+    background-position-x: 0px;
+}
+.topic6-banner .row>div:nth-child(1) .topic6-steps-background{
+    background-color: rgba(255, 255, 255, 0);
+    transition: .4s;
+}
+.topic6-banner .row>div:nth-child(2) .topic6-steps-background{
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: .4s;
+}
+.topic6-banner .row>div:nth-child(3) .topic6-steps-background{
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: .4s;
+}
+.topic6-banner .row>div:hover .topic6-steps-background{
+    background-color: rgba(102, 191, 243, 0.377);
+}
+.topic6-steps-title {
+    position: relative;
+    top: 40%;
+    transition: .4s;
+}
+.topic6-banner .row>div:hover .topic6-steps-title{
+    top: 10%;
+}
+.topic6-steps-title p {
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    letter-spacing: 3px;
+    padding: 10px 0 50px 30px;
+    position: relative;
+    color: white;
+    font-weight: bold;
+}
+
+.topic6-steps-title p::after {
+    content: '';
+    width: 40px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    left: 30px;
+}
+
+.topic6-steps-title h2 {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    padding: 40px 0 10px 30px;
+}
+.topic6-steps-background{
+    position: relative;
+}
+.topic6-steps-background>p {
+    opacity: 0;
+    color: white;
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 20px;
+    position: absolute;
+    top: 80%;
+    transition: .4s;
+    padding: 0 30px;
+}
+.topic6-banner .row>div:hover .topic6-steps-background>p{
+    opacity: 1;
+    top: 60%;
+}
+.topic6-content {
+    background-color: #323A42;
+}
+
+.topic6-content .container {
+    margin: 0 auto;
+    text-align: center;
+}
+.topic6-content .row{
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.topic6-content-title p{
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 3px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 240px 0 20px;
+}
+.topic6-content-title h2{
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
+}
+.topic6-content-item i{
+    font-size: 50px;
+    color: #F66748;
+    padding: 40px;
+}
+.topic6-content-item h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+.topic6-content-item p{
+    font-family: Montserrat, sans-serif;
+    padding: 10px 30px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.topic6-content .row div{
+    padding: 0;
+}
+.topic6-content-item{
+    background-color: rgba(0, 0, 0, 0);
+    transition: .4s;
+}
+.topic6-content-item:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.topic6-content .row:nth-child(2){
+    padding: 5px 0 100px;
+}
+
+
+.topic7 .row div{
+    padding: 0;
+}
+.topic7 .row div:nth-child(1) .topic7-item{
+    background: url("https://ld-wp.template-help.com/wordpress_imperion/corporate/wp-content/uploads/2018/07/project-1.jpg");
+}
+.topic7 .row div:nth-child(2) .topic7-item{
+    background: url("https://ld-wp.template-help.com/wordpress_imperion/corporate/wp-content/uploads/2018/07/project-2.jpg");
+}
+
+.topic7 .row div:nth-child(3) .topic7-item{
+    background: url("https://ld-wp.template-help.com/wordpress_imperion/corporate/wp-content/uploads/2018/07/project-3.jpg");
+}
+
+.topic7 .row div:nth-child(4) .topic7-item{
+    background: url("https://ld-wp.template-help.com/wordpress_imperion/corporate/wp-content/uploads/2018/07/project-4.jpg");
+}
+
+.topic7 .row div:nth-child(5) .topic7-item{
+    background: url("https://ld-wp.template-help.com/wordpress_imperion/corporate/wp-content/uploads/2018/07/project-5.jpg");
+}
+
+.topic7 .row div:nth-child(6) .topic7-item{
+    background: url("https://ld-wp.template-help.com/wordpress_imperion/corporate/wp-content/uploads/2018/07/project-6.jpg");
+}
+
+.topic7 .row div:nth-child(7) .topic7-item{
+    background: url("https://ld-wp.template-help.com/wordpress_imperion/corporate/wp-content/uploads/2018/07/project-7.jpg");
+}
+
+.topic7 .row div:nth-child(8) .topic7-item{
+    background: url("https://ld-wp.template-help.com/wordpress_imperion/corporate/wp-content/uploads/2018/07/project-8.jpg");
+}
+.topic7 .topic7-item{
+    height: 350px;
+    background-size: cover !important;
+    vertical-align: top;
+}
+.topic7-background{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    transition: .2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    box-sizing: border-box;
+}
+.topic7-item:hover .topic7-background{
+    background-color: rgba(255, 255, 255, 0.75);
+    opacity: 1;
+}
+.topic7-background h3{
+    color: #5e58f8;
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    padding: 0px 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 34px;
+}
+.topic7-background p{
+    color: #777;
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    line-height: 30px;
+    padding: 30px;
+}
+
+
+.topic8 .container{
+    margin: 0 auto;
+}
+.topic8 .row div{
+    padding: 0;
+}
+.topic8-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px 5px #eee;
+    border-radius: 10px;
+}
+.topic8-item i{
+    font-size: 80px;
+    color: #416EFF;
+    padding: 20px;
+}
+.topic8-item h3{
+    letter-spacing: 1px;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    padding: 20px 0;
+}
+.topic8-item p{
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 1px;
+    padding: 20px 0;
+}
+.topic8-item p:nth-of-type(1){
+    color: #416EFF;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px 0 30px;
+    position: relative;
+}
+.topic8-item p:nth-of-type(1)::after{
+    content: '$';
+    position: absolute;
+    top: 5;
+    right: -15px;
+    font-size: 30px;
+}
+.topic8-item a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Montserrat, sans-serif;
+    padding: 20px 45px;
+    background-color: #416EFF;
+    border-radius: 7px;
+    margin: 40px 0 80px;
+    box-shadow: inset 0 0 7px 5px #3757be;
+    transition: .2s;
+}
+.topic8-item a:hover{
+    background-color: #FF6948;
+    box-shadow: inset 0 0 5px 5px #b3543f75;
+}
+.topic8 .row div:nth-child(2n+2) .topic8-item{
+    background: url("https://ld-wp.template-help.com/wordpress_imperion/cryptocurrency_v1/wp-content/uploads/2018/05/crypto_price.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 25px;
+    z-index: 1;
+}
+.topic8 .row div:nth-child(2n+2) .topic8-item i{
+    color: white;
+}
+.topic8 .row div:nth-child(2n+2) .topic8-item h3{
+    color: white;
+}
+.topic8 .row div:nth-child(2n+2) .topic8-item p{
+    color: white;
+}
+.topic8 .row div:nth-child(2n+2) .topic8-item a{
+    background-color: #FF6948;
+    box-shadow: inset 0 0 5px 5px #cf583d6b;
+    border: 1px solid transparent;
+    transition: .2s;
+}
+.topic8 .row div:nth-child(2n+2) .topic8-item a:hover{
+    background-color: #fff;
+    color: #000;
+    box-shadow: none;
+    border: 1px solid #000;
+}
+
+
+
+.topic9{
+    width: 375px;
+    margin: 0 auto;
+}
+.topic9-item{
+    display: flex;
+    position: relative;
+}
+.topic9-Num{
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+.topic9 .row div:nth-child(1) .topic9-Num::before{
+    content: '01.';
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    transform: translate(-50%,-50%);
+    font-family: 'Oswald', sans-serif;
+    color: #C7D9F2;
+}
+.topic9-Num::after{
+    content: '';
+    padding: 25px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #548DDA;
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+}
+.topic9 .row div:nth-child(2) .topic9-Num::before{
+    content: '02.';
+}
+.topic9 .row div:nth-child(3) .topic9-Num::before{
+    content: '03.';
+}
+.topic9-txt{
+    position: absolute;
+    top: 3px;
+    left: 70px;
+}
+.topic9-txt h3 a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: Montserrat, sans-serif;
+    color: #000;
+}
+.topic9-txt h3 a:hover{
+    color: rgb(0, 81, 255);
+}
+.topic9-txt p{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 300px;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+    color: #777;
+}
+.topic9-txt>a{
+    font-size: 12px;
+    font-weight: 300px;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+    color: #777;
+}
+.topic9-txt>a:hover{
+    color: #f00;
+}
+
+
+.topic10{
+    width: 100%;
+    height: 700px;
+    background: url("https://ld-wp.template-help.com/wordpress_imperion/blog_v1/wp-content/uploads/2018/05/imperion_blog_main_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+}
+.topic10-nav{
+    max-width: 1200px;
+    display: flex;
+    background-color: transparent;
+    margin: 0 auto;
+}
+.topic10-nav .row{
+    width: 100%;
+}
+.topic10-nav .row div{
+    padding: 0;
+}
+.topic10-nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topic10-nav-logo h2{
+    padding: 7px 0;
+}
+.topic10-nav-logo img{
+    width: 150px;
+    vertical-align: top;
+}
+.topic10-nav-item{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.topic10-nav-item a{
+    padding: 25px;
+    color: #2B3238;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    background-color: white;
+    transition: .4s;
+    display: none;
+}
+.topic10-nav-item a:hover{
+    color: white;
+    background-color: #2B3238;
+}
+
+.topic10-banner{
+    max-width: 1200px;
+    margin: 50px auto;
+    display: flex;
+}
+.topic10-banner-title{
+    min-width: 115px;
+    color: #4487e6;
+    font-size: 12px;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    padding: 15px;
+    margin: auto;
+    background-color: white;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+.topic10-banner-content{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid rgba(204, 204, 204, 0.514);
+    border-bottom: 1px solid rgba(204, 204, 204, 0.527);
+    overflow: hidden;
+}
+.topic10-banner-content a{
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    transition: .3s;
+    white-space:nowrap;
+}
+.topic10-banner-content a:hover{
+    color: #f00;
+}
+.topic10-news .container{
+    margin: 0 auto;
+}
+.topic10-news div{
+    padding: 0;
+}
+.topic10-news .row>div{
+    position: relative;
+}
+.topic10-news .item-CUL{
+    background: url('https://ld-wp.template-help.com/wordpress_imperion/blog_v1/wp-content/uploads/2018/05/imperion_blog_post_1.jpg');
+}
+.topic10-news .item-POL{
+    background: url('https://ld-wp.template-help.com/wordpress_imperion/blog_v1/wp-content/uploads/2018/05/imperion_blog_post_2.jpg');
+}
+.topic10-news .item-BUS{
+    background: url('https://ld-wp.template-help.com/wordpress_imperion/blog_v1/wp-content/uploads/2018/05/imperion_blog_post_3.jpg');
+}
+.topic10-news .item-TEC{
+    background: url('https://ld-wp.template-help.com/wordpress_imperion/blog_v1/wp-content/uploads/2018/05/imperion_blog_post_5.jpg');
+}
+.topic10-news .item-ENT{
+    background: url('https://ld-wp.template-help.com/wordpress_imperion/blog_v1/wp-content/uploads/2018/05/imperion_blog_post_4.jpg');
+}
+.topic10-item{
+    display: inline-block;
+    width: 100%;
+    height: 240px;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    vertical-align: top;
+    border: 1px solid #558DD9;
+    position: relative;
+    box-sizing: border-box;
+}
+.topic10-item::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0);
+    transition: .4s;
+}
+.topic10-item:hover::before{
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+.topic10-item-title{
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: #558DD9;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+}
+.topic10-item-title:hover{
+    background-color: #FF6948;
+}
+.topic10-item-title::before{
+    content: 'admin May 12,2018';
+    position: absolute;
+    top: 130px;
+    left: 10px;
+    color: white;
+    width: 200px;
+    font-size: 12px;
+    font-family: Montserrat, sans-serif;
+}
+.item-CUL+.topic10-item-title::after{
+    content: 'Biotech Stocks – New Investment Market';
+}
+.item-POL+.topic10-item-title::after{
+    content: 'Swiss send 2nd-century coffin depicting Hercules';
+}
+.item-BUS+.topic10-item-title::after{
+    content: 'Asian-American Characters ‘Tokens’ on TV';
+}
+.item-TEC+.topic10-item-title::after{
+    content: '“Standby” or “Hibernate”: The Main Differences';
+}
+.item-ENT+.topic10-item-title::after{
+    content: 'SpaceX aborts first ‘Block 5’ Falcon 9 launch';
+}
+.topic10-item-title::after{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    width: 260px;
+    letter-spacing: 1px;
+    color: white;
+    position: absolute;
+    top:150px;
+    left: 10px;
+    line-height: 25px;
+}
+
+
+.topic11{
+    margin: 800px 0 0;
+    width: 100%;
+    position: relative;
+}
+.topic11-background{
+    background: url("https://ld-wp.template-help.com/wordpress_imperion/digital_v1/wp-content/uploads/2017/11/imperion_digital_bg_4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.topic11-background::after{
+    content: '';
+    display: block;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-bottom: 100px solid white;
+    border-left: calc(100vw - 17px) solid white ;
+    border-top: 100px solid transparent;
+    z-index: 1;
+    
+}
+.topic11 .container{
+    margin: 0 auto;
+    padding: 30px;
+}
+.topic11-logo img{
+    width: 120px;
+    height: 40px;
+}
+.topic11-nav nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.topic11-nav a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin: 14.5px 20px;
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    border-bottom: 1px solid transparent;
+    position: relative;
+}
+.topic11-nav a:hover{
+    border-bottom:1px solid white ;
+}
+.topic11-nav a::before{
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 3px solid transparent;
+    border-bottom:3px solid white ;
+    border-left: 3px solid white;
+    border-right: 3px solid transparent;
+    position: absolute;
+    top: 4px;
+    right: -13px;
+    transform: rotate(-45deg);
+}
+.topic11-member{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topic11-member i{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+}
+.topic11-member a:nth-child(2)>i{
+    border-left: 1px solid white;
+}
+.topic11-member a:nth-child(3){
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    padding: 20px 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.topic11-member a:hover i{
+    color: #3d85a1;
+}
+.topic11-member a:nth-child(3):hover{
+    background-color: #4bb6e0;
+}
+.topic11-pic{
+    width: 100%;
+    height: 100%;
+}
+.topic11-pic img:nth-child(1){
+    width: 100%;
+}
+.topic11-pic img:nth-child(2){
+    position: relative;
+    width: 85%;
+    left: 20px;
+}
+.topic11-txt{
+    display: flex;
+    flex-direction: column;
+}
+.topic11-txt h3{
+    font-size:60px;
+    color: white;
+    font-family:  'Oswald', sans-serif;
+    padding: 20px 0 0;
+}
+.topic11-txt p{
+    font-size: 20px;
+    color: white;
+    padding: 30px 0 0;
+}
+.topic11-txt a{
+    display: inline-block;
+    margin: 30px 0 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-family:  'Oswald', sans-serif;
+    font-weight: 800;
+}
+.topic11-txt a:nth-of-type(1){
+    padding: 25px 20px;
+    background-color: #64B3D3;
+    border-radius: 5px;
+    transition: .3s;
+}
+.topic11-txt a:nth-of-type(1):hover{
+    background-color: #3586a7;
+}
+.topic11-txt a:nth-of-type(2){
+    padding: 0 0 0 80px;
+    position: relative;
+}
+.topic11-txt a:nth-of-type(2)::before{
+    position: absolute;
+    top: -5px;
+    left: 35px;
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-left: 20px solid #3d9cc2;
+    border-bottom: 12px solid transparent;
+}
+.topic11-txt a:nth-of-type(2)::after{
+    position: absolute;
+    top: -23px;
+    left: 13px;
+    content: '';
+    width: 0;
+    height: 0;
+    padding: 28px;
+    border-radius: 50%;
+    border: 1px solid #3d9bc0;
+}
+
+
+.topic12{
+    background: url("https://ld-wp.template-help.com/wordpress_imperion/digital_v1/wp-content/uploads/2017/11/imperion_digital_04.jpg");
+    background-size: cover;
+    background-position: center left;
+    background-repeat: no-repeat;
+    height: 600px;
+    vertical-align: top;
+}
+.topic12-item{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.topic12-item i{
+    font-size: 50px;
+    color: #64B3D3;
+}
+.topic12-item p{
+    font-size: 60px;
+    font-family: Montserrat, sans-serif;
+    padding: 20px;
+}
+.topic12-item h3{
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    color: #777;
+}
+.topic12 .row div{
+    padding: 0;
+}
+.topic12-WBG{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+/* .topic13 .container{
+    margin: 0 auto;
+}
+.topic13-item{
+    margin: 3px 0;
+    height: 300px;
+}
+.topic13-NEW{
+    width: 45%;
+}
+.topic13-MEN{
+    width: 54%;
+    background: url("https://ld-wp.template-help.com/wordpress_imperion/shop_v1/wp-content/uploads/2017/11/shop_banner02.jpg../images/section13_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.topic13-TIME{
+    width: 38%;
+    background: url("https://ld-wp.template-help.com/wordpress_imperion/shop_v1/wp-content/uploads/2017/11/shop_banner04.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.topic13-WOMEN{
+    width: 61%;
+    background: url("https://ld-wp.template-help.com/wordpress_imperion/shop_v1/wp-content/uploads/2017/11/shop_banner03.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.topic13-SHOES{
+    width: 50%;
+    background: url("https://ld-wp.template-help.com/wordpress_imperion/shop_v1/wp-content/uploads/2017/11/shop_banner05.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.topic13-SHOP{
+    width: 50%;
+} */
+
+
+.topic14{
+    max-width: 1200px;
+    margin: 0 auto 100px;
+}
+.topic14-wrap{
+    display: flex;
+    flex-direction: column;
+}
+.topic14-wrap .topic14-box:nth-child(1){
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: rgba(138, 33, 33, 0.616);
+    position: relative;
+    box-sizing: border-box;
+}
+.topic14-wrap .topic14-box:nth-child(1)::before{
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 20px solid rgba(138, 33, 33, 0.616);
+    border-right: 20px solid transparent;
+    position: absolute;
+    top: 100%;
+    left: 60px;
+}
+
+.topic14-wrap .topic14-box:nth-child(2){
+    display: flex;
+    align-items: center;
+}
+.topic14-box img{
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    border-radius: 50%;
+}
+.topic14-pic{
+    transform: scale(1);
+    transition: .1s;
+}
+.topic14-pic:hover{
+    transform: scale(5);
+}
+.topic14-box h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #00f;
+    padding: 5px;
+}
+.topic14-box:nth-child(2) p{
+    font-size: 12px;
+    color: #067;
+}
+
+
+@media screen and (min-width:768px) {
+    .topic3-banner .banner-item {
+        margin-top: -120px;
+    }
+
+
+    .topic4 .topic4-txt h2::after {
+        left: 0;
+    }
+
+    .topic4-txt {
+        text-align: left;
+    }
+
+    .topic4-button {
+        flex-direction: row;
+    }
+
+
+
+
+    .topic6-steps-title h2 {
+        font-size: 46px;
+    }
+
+
+    .topic8 .row div:nth-child(2n+2) .topic8-item{
+        top: -26px;
+    }
+
+
+    .topic10-nav{
+        background-color: white;
+    }
+    .topic10-nav-item a{
+        display: block;
+    }
+    .topic10-news .item-CUL{
+        height: 480px;
+    }
+    .topic10-item-title::after{
+        width: 220px;
+    }
+    .item-CUL+.topic10-item-title::after{
+        width: 500px;
+        line-height: 60px;
+        top: 300px;
+        font-size: 40px;
+    }
+    .item-CUL+.topic10-item-title::before{
+        top: 430px;
+    }
+
+
+    .topic11{
+        margin: 500px 0 0;
+    }
+    .topic11-member{
+        justify-content: flex-end;
+    }
+    .topic11-nav nav{
+        flex-direction: row;
+    }
+    .topic11-pic{
+        width: 65%;
+        height: 100%;
+        position: relative;
+    }
+    .topic11-pic img:nth-child(1){
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        z-index: 3;
+    }
+    .topic11-pic img:nth-child(2){
+        position: absolute;
+        width: 70%;
+        bottom: 70px;
+        left: 75%;
+        z-index: 2;
+    }
+    .topic11-txt{
+        display: block;
+    }
+    .topic11-txt h3{
+        padding: 200px 0 0;
+    }
+    .topic11-txt a{
+        margin: 30px 0 300px;
+    }
+
+
+    .topic12-space{
+        display: block;
+    }
+    .topic12-item{
+        height: 350px;
+    }
+    .topic12{
+        height: 700px;
+    }
+}
+@media screen and (min-width:1024px){
+    .topic4 .topic4-txt a {
+        margin: 6px 40px 6px 0;
+    }
+
+    
+    .topic11{
+        margin: 100px 0 0;
+    }
+    .topic11-pic img:nth-child(2){
+        bottom: 100px;
+        left: 200px;
+    }
+    .topic11-background::after{
+        border-left: calc(100vw - 17px) solid white ;
+    }
+}
+
+@media screen and (min-width:1200px){
+    .topic11-pic img:nth-child(2){
+        bottom: 128px;
+        left: 300px;
+    }
+    .topic11-txt a:nth-of-type(1){
+        padding: 15px 30px;
+    
+    }
+}
