@@ -651,38 +651,38 @@ section {
     padding: 0;
 }
 .topic7 .row div:nth-child(1) .topic7-item{
-    background: url("https://ld-wp.template-help.com/wordpress_imperion/corporate/wp-content/uploads/2018/07/project-1.jpg");
+    background-image: url("https://ld-wp.template-help.com/wordpress_imperion/corporate/wp-content/uploads/2018/07/project-1.jpg");
 }
 .topic7 .row div:nth-child(2) .topic7-item{
-    background: url("https://ld-wp.template-help.com/wordpress_imperion/corporate/wp-content/uploads/2018/07/project-2.jpg");
+    background-image: url("https://ld-wp.template-help.com/wordpress_imperion/corporate/wp-content/uploads/2018/07/project-2.jpg");
 }
 
 .topic7 .row div:nth-child(3) .topic7-item{
-    background: url("https://ld-wp.template-help.com/wordpress_imperion/corporate/wp-content/uploads/2018/07/project-3.jpg");
+    background-image: url("https://ld-wp.template-help.com/wordpress_imperion/corporate/wp-content/uploads/2018/07/project-3.jpg");
 }
 
 .topic7 .row div:nth-child(4) .topic7-item{
-    background: url("https://ld-wp.template-help.com/wordpress_imperion/corporate/wp-content/uploads/2018/07/project-4.jpg");
+    background-image: url("https://ld-wp.template-help.com/wordpress_imperion/corporate/wp-content/uploads/2018/07/project-4.jpg");
 }
 
 .topic7 .row div:nth-child(5) .topic7-item{
-    background: url("https://ld-wp.template-help.com/wordpress_imperion/corporate/wp-content/uploads/2018/07/project-5.jpg");
+    background-image: url("https://ld-wp.template-help.com/wordpress_imperion/corporate/wp-content/uploads/2018/07/project-5.jpg");
 }
 
 .topic7 .row div:nth-child(6) .topic7-item{
-    background: url("https://ld-wp.template-help.com/wordpress_imperion/corporate/wp-content/uploads/2018/07/project-6.jpg");
+    background-image: url("https://ld-wp.template-help.com/wordpress_imperion/corporate/wp-content/uploads/2018/07/project-6.jpg");
 }
 
 .topic7 .row div:nth-child(7) .topic7-item{
-    background: url("https://ld-wp.template-help.com/wordpress_imperion/corporate/wp-content/uploads/2018/07/project-7.jpg");
+    background-image: url("https://ld-wp.template-help.com/wordpress_imperion/corporate/wp-content/uploads/2018/07/project-7.jpg");
 }
 
 .topic7 .row div:nth-child(8) .topic7-item{
-    background: url("https://ld-wp.template-help.com/wordpress_imperion/corporate/wp-content/uploads/2018/07/project-8.jpg");
+    background-image: url("https://ld-wp.template-help.com/wordpress_imperion/corporate/wp-content/uploads/2018/07/project-8.jpg");
 }
 .topic7 .topic7-item{
     height: 350px;
-    background-size: cover !important;
+    background-size: cover;
     vertical-align: top;
 }
 .topic7-background{
@@ -1104,7 +1104,7 @@ section {
     height: 0;
     position: absolute;
     border-bottom: 100px solid white;
-    border-left: calc(100vw - 17px) solid white ;
+    border-left: calc(100vw) solid white ;
     border-top: 100px solid transparent;
     z-index: 1;
     
@@ -1508,7 +1508,7 @@ section {
         left: 200px;
     }
     .topic11-background::after{
-        border-left: calc(100vw - 17px) solid white ;
+        border-left: calc(100vw) solid white ;
     }
 }
 

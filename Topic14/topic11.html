@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+.topic11{
+    margin: 800px 0 0;
+    width: 100%;
+    position: relative;
+}
+.topic11-background{
+    background: url("https://ld-wp.template-help.com/wordpress_imperion/digital_v1/wp-content/uploads/2017/11/imperion_digital_bg_4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.topic11-background::after{
+    content: '';
+    display: block;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-bottom: 100px solid white;
+    border-left: calc(100vw) solid white ;
+    border-top: 100px solid transparent;
+    z-index: 1;
+    
+}
+.topic11 .container{
+    margin: 0 auto;
+    padding: 30px;
+}
+.topic11-logo img{
+    width: 120px;
+    height: 40px;
+}
+.topic11-nav nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.topic11-nav a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin: 14.5px 20px;
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    border-bottom: 1px solid transparent;
+    position: relative;
+}
+.topic11-nav a:hover{
+    border-bottom:1px solid white ;
+}
+.topic11-nav a::before{
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 3px solid transparent;
+    border-bottom:3px solid white ;
+    border-left: 3px solid white;
+    border-right: 3px solid transparent;
+    position: absolute;
+    top: 4px;
+    right: -13px;
+    transform: rotate(-45deg);
+}
+.topic11-member{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topic11-member i{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+}
+.topic11-member a:nth-child(2)>i{
+    border-left: 1px solid white;
+}
+.topic11-member a:nth-child(3){
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    padding: 20px 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.topic11-member a:hover i{
+    color: #3d85a1;
+}
+.topic11-member a:nth-child(3):hover{
+    background-color: #4bb6e0;
+}
+.topic11-pic{
+    width: 100%;
+    height: 100%;
+}
+.topic11-pic img:nth-child(1){
+    width: 100%;
+}
+.topic11-pic img:nth-child(2){
+    position: relative;
+    width: 85%;
+    left: 20px;
+}
+.topic11-txt{
+    display: flex;
+    flex-direction: column;
+}
+.topic11-txt h3{
+    font-size:60px;
+    color: white;
+    font-family:  'Oswald', sans-serif;
+    padding: 20px 0 0;
+}
+.topic11-txt p{
+    font-size: 20px;
+    color: white;
+    padding: 30px 0 0;
+}
+.topic11-txt a{
+    display: inline-block;
+    margin: 30px 0 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-family:  'Oswald', sans-serif;
+    font-weight: 800;
+}
+.topic11-txt a:nth-of-type(1){
+    padding: 25px 20px;
+    background-color: #64B3D3;
+    border-radius: 5px;
+    transition: .3s;
+}
+.topic11-txt a:nth-of-type(1):hover{
+    background-color: #3586a7;
+}
+.topic11-txt a:nth-of-type(2){
+    padding: 0 0 0 80px;
+    position: relative;
+}
+.topic11-txt a:nth-of-type(2)::before{
+    position: absolute;
+    top: -5px;
+    left: 35px;
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-left: 20px solid #3d9cc2;
+    border-bottom: 12px solid transparent;
+}
+.topic11-txt a:nth-of-type(2)::after{
+    position: absolute;
+    top: -23px;
+    left: 13px;
+    content: '';
+    width: 0;
+    height: 0;
+    padding: 28px;
+    border-radius: 50%;
+    border: 1px solid #3d9bc0;
+}
+@media screen and(min-width: 768px){
+    
+    .topic11{
+        margin: 500px 0 0;
+    }
+    .topic11-member{
+        justify-content: flex-end;
+    }
+    .topic11-nav nav{
+        flex-direction: row;
+    }
+    .topic11-pic{
+        width: 65%;
+        height: 100%;
+        position: relative;
+    }
+    .topic11-pic img:nth-child(1){
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        z-index: 3;
+    }
+    .topic11-pic img:nth-child(2){
+        position: absolute;
+        width: 70%;
+        bottom: 70px;
+        left: 75%;
+        z-index: 2;
+    }
+    .topic11-txt{
+        display: block;
+    }
+    .topic11-txt h3{
+        padding: 200px 0 0;
+    }
+    .topic11-txt a{
+        margin: 30px 0 300px;
+    }
+
+}
+    </style>
+</head>
+<body>
+    <section class="topic11">
+        <div class="topic11-background">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-2">
+                        <div class="topic11-logo">
+                            <h2><a href="#"><img
+                                        src="https://ld-wp.template-help.com/wordpress_imperion/digital_v1/wp-content/themes/imperion/skins/digital/assets/images/invert-logo.png"
+                                        alt="topic11-logo"></a></h2>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-7">
+                        <div class="topic11-nav">
+                            <nav>
+                                <a href="#">HOME</a>
+                                <a href="#">PAGES</a>
+                                <a href="#">FEATURES</a>
+                                <a href="#">NEWS</a>
+                                <a href="#">SHOP</a>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="topic11-member">
+                            <a href="#"><i class="fas fa-search"></i></a>
+                            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="#">GET IN TOUCH</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="topic11-txt">
+                            <h3>Your Only Limit Is You</h3>
+                            <p>Introdusing our most innovative business app.</p>
+                            <a href="#">GET THE APP</a>
+                            <a href="#">VIEW PRESENTATION</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="topic11-pic">
+                            <img src="https://ld-wp.template-help.com/wordpress_imperion/digital_v1/wp-content/uploads/2017/11/imperion_digital_11.png"
+                                alt="topic11-範例照片">
+                            <img src="https://ld-wp.template-help.com/wordpress_imperion/digital_v1/wp-content/uploads/2017/11/imperion_digital_12.png"
+                                alt="topic11-範例照片">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
