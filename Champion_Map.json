@@ -1,0 +1,42 @@
+[
+  {
+    "Name": "Champion_Taipei",
+    "Address": "台北市中山區松江路186號",
+    "lat": 25.0563187,
+    "lng": 121.5325849,
+    "Phone": "0928446371",
+    "photos": "../Assets/GoogleMap/images/Shop/Champion_Taipei.png",
+    "Description": "Welcome our shop to get some great wines!!!",
+    "Business": "10:00~22:00"
+  },
+  {
+    "Name": "Champion_Kaohsiung",
+    "Address": "高雄縣大安區和平東路一段83-1號",
+    "lat": 22.6718399,
+    "lng": 120.3507968,
+    "Phone": "0923217222",
+    "photos": "../Assets/GoogleMap/images/Shop/Champion_Kaohsiung.png",
+    "Description": "Welcome our shop ,here is your wines!!!",
+    "Business": "09:00~20:00"
+  },
+  {
+    "Name": "Champion_Hsinchu",
+    "Address": "新竹市東區食品路66號",
+    "lat": 24.7969636,
+    "lng": 120.9758955,
+    "Phone": "0934567222",
+    "photos": "../Assets/GoogleMap/images/Shop/Champion_Hsinchu.png",
+    "Description": "Welcome Hsinchu shop ,here you wines!!!",
+    "Business": "07:00~22:00"
+  },
+  {
+    "Name": "Champion_Yilan",
+    "Address": "宜蘭縣宜蘭市中山路三段208號",
+    "lat": 24.7592689,
+    "lng": 121.754817,
+    "Phone": "0234567822",
+    "photos": "../Assets/GoogleMap/images/Shop/Champion_Yilan.png",
+    "Description": "Welcome our shop ,here id your wines!!!",
+    "Business": "10:00~20:00"
+  }
+]
